@@ -1,0 +1,76 @@
+body, html {
+font-family: 'Open Sans', sans-serif;
+height: 100%;
+margin: 0;
+}
+.btn {
+width: 200px;
+height: 45px;
+border: 2px solid blue;
+border-radius: 4px;
+font-size: 15px;
+text-transform: uppercase;
+color: blue;
+margin-left: auto;
+margin-right: auto;
+}
+.btn:active {
+background-color: blue;
+color: white;
+}
+.header, .main {
+max-width: 1920px;
+margin-left: auto;
+margin-right: auto;
+}
+.wellcome {
+border: 1px solid blue;
+}
+.start_img {
+background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/background.jpg");
+height: 600px;
+width: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.start_img {
+display: flex;
+}
+.start_text {
+  display: flex;
+  flex-direction: column;
+  margin: 3em;
+  border: 1px solid blue;
+}
+.hero_h1_text {
+font-size: 72px;
+border: 1px solid red;
+text-transform: uppercase;
+border: 1px solid red;
+}
+.hero_text {
+font-size: 20px;
+text-transform: uppercase;
+max-width: 450px;
+border: 1px solid red;
+}
+.work_box {
+  display: flex;
+/*  flex-wrap: wrap; */
+margin: 120px;
+border: 1px solid red;
+display: flex;
+}
+.work_class {
+display: flex;
+border: 3px solid green;
+flex-direction: column;
+justify-content: space-around;
+margin: 3%;
+}
+.images {
+  margin: 3%;
+  min-width: 45%;
+}
